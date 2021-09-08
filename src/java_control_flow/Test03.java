@@ -2,8 +2,11 @@ package java_control_flow;
 
 import java.util.Random;
 
-public class test03 {
-    //修改练习2，把代码用一个while无限循环包括起来。然后运行它直到键盘中断其运行。(通常是通过按Ctrl-C)
+/**
+ * 修改练习2，把代码用一个while无限循环包括起来。然后运行它直到键盘中断其运行。(通常是通过按Ctrl-C)
+ * Created by Emily on 2021/9/8
+ */
+public class Test03 {
     public static void test(){
         Random rd=new Random();
         int[] num=new int[25];

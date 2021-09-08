@@ -1,7 +1,10 @@
 package java_control_flow;
 
-public class test05 {
-    //重复第三章中的练习10，不要用Integer.toBinaryString()方法，而是用三元操作符和按位操作符来显示二进制0和1
+/**
+ * 重复第三章中的练习10，不要用Integer.toBinaryString()方法，而是用三元操作符和按位操作符来显示二进制0和1。
+ * Created by Emily on 2021/9/8
+ */
+public class Test05 {
     public static void test(int c){
         int d = 0x8000;
         for (int i = 0; i < 16; i++) {

@@ -2,8 +2,11 @@ package java_control_flow;
 
 import java.util.Random;
 
-public class test02 {
-    //写一个程序，产生25个int类型的随机数。对于每一个随机数，使用if-else语句来将其分类为大于、小于或等于紧随它而随机生成的值。
+/**
+ * 写一个程序，产生25个int类型的随机数。对于每一个随机数，使用if-else语句来将其分类为大于、小于或等于紧随它而随机生成的值。
+ * Created by Emily on 2021/9/8
+ */
+public class Test02 {
     public static void test(){
         Random rd=new Random();
         int[] num=new int[25];

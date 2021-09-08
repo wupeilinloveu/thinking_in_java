@@ -1,8 +1,11 @@
 package java_control_flow;
 
-public class test08 {
-    //写一个switch开关语句，为每个case打印一个消息。然后把这个switch放进for循环来测试每个case。
-    //先让每个case后面都有break，测试一下会怎样，然后把break删了，看看会怎样。
+/**
+ * 写一个switch开关语句，为每个case打印一个消息。然后把这个switch放进for循环来测试每个case。
+ * 先让每个case后面都有break，测试一下会怎样，然后把break删了，看看会怎样。
+ * Created by Emily on 2021/9/8
+ */
+public class Test08 {
     public static void test(){
         for (int i=1;i<10;i++) {
             switch (i) {

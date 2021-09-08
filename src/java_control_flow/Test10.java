@@ -1,17 +1,20 @@
 package java_control_flow;
 
-public class test10 {
-    //血鬼数字是指位数为偶数的数字，可以由一对数字相乘得到，而这对数字各包含乘积的一半位数的数字，其中从最初的数字中选取的数字可以任意排序。
-    //以两个0结尾的数字是不允许的，例如，下列数字都是“吸血鬼数字”：
-    //1260=21*60
-    //1827=21*87
-    //2187=27*81
-    //写一个程序，找出4位数的所有吸血鬼数字
+/**
+ * 血鬼数字是指位数为偶数的数字，可以由一对数字相乘得到，而这对数字各包含乘积的一半位数的数字，其中从最初的数字中选取的数字可以任意排序。
+ * 以两个0结尾的数字是不允许的，例如，下列数字都是“吸血鬼数字”：
+ * 1260=21*60
+ * 1827=21*87
+ * 2187=27*81
+ * 写一个程序，找出4位数的所有吸血鬼数字。
+ * Created by Emily on 2021/9/8
+ */
+public class Test10 {
     private int num, len;
     private int [] a;
     private boolean flag;
 
-    test10(){
+    Test10(){
         a = new int[100];
         System.out.println("吸血鬼数字");
 
@@ -59,6 +62,6 @@ public class test10 {
     }
 
     public static void  main(String [] args){
-        new test10();
+        new Test10();
     }
 }
