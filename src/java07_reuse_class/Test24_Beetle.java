@@ -10,7 +10,7 @@ public class Test24_Beetle extends Test24_Insect{
         System.out.println("k = " + k);
         System.out.println("j = " + j);
     }
-    private static final int x2 = printInit("static Beetle.x2 initialized");
+    private static int x2 = printInit("static Beetle.x2 initialized");
     public static void main(String[] args) {
         System.out.println("Beetle constructor");
         Test24_Beetle b = new Test24_Beetle();
