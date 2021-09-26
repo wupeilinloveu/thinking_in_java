@@ -4,7 +4,7 @@ package java07_reuse_class;
  * Created by Emily on 2021/9/26
  */
 public class Test24_Insect {
-    private final int i = 9;
+    private int i = 9;
     protected int j;
     Test24_Insect() {
         System.out.println("i = " + i + ", j = " + j);
